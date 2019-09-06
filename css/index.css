@@ -314,3 +314,24 @@ margin-bottom: 20px;
 .about-about2 div {
     width:94%;
 }
+
+/* The animation code */
+@keyframes mail {
+    from {left: 0%;} 
+    to{left: 81%;} 
+  }
+  
+  /* The element to apply the animation to */
+.mail{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    animation-name: mail;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+.mail img{
+    width: 100%;
+    height: 100%;
+}
