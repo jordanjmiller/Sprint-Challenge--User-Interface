@@ -260,3 +260,57 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about */
+.about-about {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+}
+.about-about div {
+    width:94%;
+}
+.about-fourcards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about-fourcards div{
+border-bottom: 2px dotted black;
+width:45%;
+padding-bottom: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.about-fourcards img{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.about-fourcards button{
+    width: 120px;
+    height:35px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 10px;
+    transition-duration: 1s;
+}
+.about-fourcards button:hover {
+    background-color: grey; /* Green */
+    color: white;
+}
+
+
+.about-about2 {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-about2 div {
+    width:94%;
+}
